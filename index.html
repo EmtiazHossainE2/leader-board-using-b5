@@ -53,6 +53,7 @@
         </nav>
     </header>
     <main>
+        <!-- Top Area  -->
         <section>
             <div class="container my-4 pb-3 bg-light rounded">
                 <!-- top players  -->
@@ -96,14 +97,14 @@
                 <div>
                     <h3 class="text-primary py-3 m-3">Top Blogs</h3>
                     <div>
-                        <div class="row g-3">
+                        <div class="row gy-4">
                             <div class="col-md-12 col-lg-6 ">
                                 <div class="row flex justify-content-evenly">
                                     <div class="col-12 col-md-4 ">
-                                        <img width="177" height="117" src="images/blogs/blog-2.png" alt="">
+                                        <img class="img-fluid" src="images/blogs/blog-2.png" alt="">
                                     </div>
                                     <div class=" col-12 col-md-6 ">
-                                        <h4>UI cheat sheet: <br> list vs grids</h4>
+                                        <h4 class="py-3">UI cheat sheet: <br> list vs grids</h4>
                                         <p class="text-secondary">By <a class="text-decoration-none" href="#">Tess Gadd</a></p>
                                     </div>
                                 </div>
@@ -111,10 +112,10 @@
                             <div class="col-md-12 col-lg-6 ">
                                 <div class="row flex justify-content-evenly">
                                     <div class="col-12 col-md-4 ">
-                                        <img width="177" height="117" src="images/blogs/blog-1.png" alt="">
+                                        <img class="img-fluid" src="images/blogs/blog-1.png" alt="">
                                     </div>
                                     <div class=" col-12 col-md-6 ">
-                                        <h4>13 of My Favorite <br> UI/UX Goodies</h4>
+                                        <h4 class="py-3">13 of My Favorite <br> UI/UX Goodies</h4>
                                         <p class="text-secondary">By <a class="text-decoration-none" href="#">Jhon Doe</a></p>
                                     </div>
                                 </div>
@@ -122,10 +123,10 @@
                             <div class="col-md-12 col-lg-6 ">
                                 <div class="row flex justify-content-evenly">
                                     <div class="col-12 col-md-4 ">
-                                        <img width="177" height="117" src="images/blogs/blog-3.png" alt="">
+                                        <img class="img-fluid" src="images/blogs/blog-3.png" alt="">
                                     </div>
                                     <div class=" col-12 col-md-6 ">
-                                        <h4>7 typography tips <br> for interface design</h4>
+                                        <h4 class="py-3">7 typography tips <br> for interface design</h4>
                                         <p class="text-secondary">By <a class="text-decoration-none" href="#">Jeremiah Lam</a></p>
                                     </div>
                                 </div>
@@ -133,10 +134,10 @@
                             <div class="col-md-12 col-lg-6 ">
                                 <div class="row flex justify-content-evenly">
                                     <div class="col-12 col-md-4 ">
-                                        <img width="177" height="117" src="images/blogs/blog-4.png" alt="">
+                                        <img class="img-fluid"  src="images/blogs/blog-4.png" alt="">
                                     </div>
                                     <div class=" col-12 col-md-6 ">
-                                        <h4>Your logo is <br> Copied</h4>
+                                        <h4 class="py-3">Your logo is <br> Copied</h4>
                                         <p class="text-secondary">By <a class="text-decoration-none" href="#">Ferdinand Vogler</a></p>
                                     </div>
                                 </div>
@@ -153,56 +154,85 @@
         <section class="container my-3 bg-light rounded">
             <h3 class="text-primary py-3 m-3 ">Latest Course</h3>
             <div class="row m-2 g-3">
+                <!-- single course  -->
                 <div class="col-lg-4 col-md-6 col-sm-12 ">
-                    <img width="250" height="120" src="images/courses/course-1.png" alt="">
-                    <div>
-                        <h4 class="my-3">React - The Complete <br> Guide 2022</h4> 
-                        <p class="text-danger">Reed Krakoff.</p>
-                        <div class="d-flex ">
-                            <div style="color: var(--icon-color);">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
+                    <div class="shadow-sm rounded p-3">
+                        <img class="img-fluid" src="images/courses/course-1.png" alt="">
+                        <div class="my-3">
+                            <h4 >React - The Complete <br> Guide 2022</h4> 
+                            <p class="text-danger">Reed Krakoff.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex ">
+                                <div style="color: var(--icon-color);">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <p class="px-3">4.5</p>
+                                <div style="color: var(--clock-color);">
+                                    <i class="far fa-clock"></i> 01:30hr
+                                </div>
                             </div>
-                            <p class="px-3">4.5</p>
-                            <div style="color: var(--clock-color);"><i class="far fa-clock"></i> 01:30hr</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <img width="250" height="120" src="images/courses/course-2.png" alt="">
-                    <h4 class="my-3">Powerpoint 2020 <br>Master Powerpoint Cour</h4> 
-                    <p class="text-danger">Walter Scott</p>
-                    <div class="d-flex ">
-                        <div style="color: var(--icon-color);">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
+                <!-- / single course  -->
+                <!-- single course  -->
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="shadow-sm rounded p-3">
+                        <img class="img-fluid" src="images/courses/course-2.png" alt="">
+                        <div class="my-3">
+                            <h4 >React - The Complete <br> Guide 2022</h4> 
+                            <p class="text-danger">Reed Krakoff.</p>
                         </div>
-                        <p class="px-3">4.5</p>
-                        <div style="color: var(--clock-color);"><i  class="far fa-clock"></i> 01:30hr</div>
+                        <div>
+                            <div class="d-flex ">
+                                <div style="color: var(--icon-color);">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <p class="px-3">4.5</p>
+                                <div style="color: var(--clock-color);">
+                                    <i class="far fa-clock"></i> 01:30hr
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <img width="250" height="120" src="images/courses/course-3.png" alt="">
-                    <h4 class="my-3">The Complete JavaScript <br> Course 2022</h4> 
-                    <p class="text-danger">Reed Krakoff.</p>
-                    <div class="d-flex ">
-                        <div style="color: var(--icon-color);">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
+                <!-- /single course  -->
+                <!-- single course  -->
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="shadow-sm rounded p-3">
+                        <img class="img-fluid" src="images/courses/course-3.png" alt="">
+                        <div class="my-3">
+                            <h4 >The Complete JavaScript  <br> Course 2022</h4> 
+                            <p class="text-danger">Reed Krakoff.</p>
                         </div>
-                        <p class="px-3">4.5</p>
-                        <div style="color: var(--clock-color);"><i  class="far fa-clock"></i> 01:30hr</div>
+                        <div>
+                            <div class="d-flex ">
+                                <div style="color: var(--icon-color);">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <p class="px-3">4.5</p>
+                                <div style="color: var(--clock-color);">
+                                    <i class="far fa-clock"></i> 01:30hr
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- /single course  -->
+                
             </div>
 
         </section>
